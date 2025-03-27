@@ -1,6 +1,8 @@
 export default {
-
-
+  target: 'static',  // Ensure it's set to 'static'
+  generate: {
+    dir: 'dist'  // Ensures Nuxt outputs the built files in 'dist'
+  },
   server: {
     port: process.env.PORT || 3000,
     host: '0.0.0.0'
