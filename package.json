@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "vercel --force"
   },
   "dependencies": {
     "@bachdgvn/vue-otp-input": "^1.0.8",
